@@ -1,9 +1,14 @@
 def intro array
   #escribir el código
-  end
-  def nombre nom
+  array.sum
+end
+def nombre nom
   #escribir el código
-  end
-  def datos? array
+  return "vacío" if nom.empty?
+  "hello #{nom}"
+end
+def datos? array
   #escribir el código
-  end
+  !array.empty?
+end
+
